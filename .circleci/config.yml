@@ -4,6 +4,6 @@ orbs:
     hello: circleci/hello-build@0.0.7 # uses the circleci/buildpack-deps Docker image
 
 workflows:
-    "Hello Workflow":
+    "Hello Workflow 1":
         jobs:
-          - zmytryc/hello-world
+          - hello/hello-build
